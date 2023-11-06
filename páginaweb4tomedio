@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="es">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noticia+Text&display=swap" rel="stylesheet">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LE SSERAFIM</title>
+    <!-- Abajo voy a agregar Bootstrap :)-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <!-- Cierre de comentario-->
+    <link rel="stylesheet" href="pagina_web.css">
+
+</head>
+<body>
+<header>
+<!-- Inicio de Navbar-->
+<nav class="navbar bg-dark" data-bs-theme="dark">
+  <!-- Navbar content -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-through-heart-fill">
+        <path fill-rule="evenodd" d="M2.854 15.854A.5.5 0 0 1 2 15.5V14H.5a.5.5 0 0 1-.354-.854l1.5-1.5A.5.5 0 0 1 2 11.5h1.793l3.103-3.104a.5.5 0 1 1 .708.708L4.5 12.207V14a.5.5 0 0 1-.146.354l-1.5 1.5ZM16 3.5a.5.5 0 0 1-.854.354L14 2.707l-1.006 1.006c.236.248.44.531.6.845.562 1.096.585 2.517-.213 4.092-.793 1.563-2.395 3.288-5.105 5.08L8 13.912l-.276-.182A23.825 23.825 0 0 1 5.8 12.323L8.31 9.81a1.5 1.5 0 0 0-2.122-2.122L3.657 10.22a8.827 8.827 0 0 1-1.039-1.57c-.798-1.576-.775-2.997-.213-4.093C3.426 2.565 6.18 1.809 8 3.233c1.25-.98 2.944-.928 4.212-.152L13.292 2 12.147.854A.5.5 0 0 1 12.5 0h3a.5.5 0 0 1 .5.5v3Z"/>
+      </svg>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-through-heart" >
+          <path fill-rule="evenodd" d="M2.854 15.854A.5.5 0 0 1 2 15.5V14H.5a.5.5 0 0 1-.354-.854l1.5-1.5A.5.5 0 0 1 2 11.5h1.793l.53-.53c-.771-.802-1.328-1.58-1.704-2.32-.798-1.575-.775-2.996-.213-4.092C3.426 2.565 6.18 1.809 8 3.233c1.25-.98 2.944-.928 4.212-.152L13.292 2 12.147.854A.5.5 0 0 1 12.5 0h3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.854.354L14 2.707l-1.006 1.006c.236.248.44.531.6.845.562 1.096.585 2.517-.213 4.092-.793 1.563-2.395 3.288-5.105 5.08L8 13.912l-.276-.182a21.86 21.86 0 0 1-2.685-2.062l-.539.54V14a.5.5 0 0 1-.146.354l-1.5 1.5Zm2.893-4.894A20.419 20.419 0 0 0 8 12.71c2.456-1.666 3.827-3.207 4.489-4.512.679-1.34.607-2.42.215-3.185-.817-1.595-3.087-2.054-4.346-.761L8 4.62l-.358-.368c-1.259-1.293-3.53-.834-4.346.761-.392.766-.464 1.845.215 3.185.323.636.815 1.33 1.519 2.065l1.866-1.867a.5.5 0 1 1 .708.708L5.747 10.96Z"/>
+        </svg>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.youtube.com/watch?v=UBURTj20HXI"target="blank">
+            ultimo comeback
+          </a>
+        </li>
+      
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.instagram.com/le_sserafim/reels/?hl=es-la"target="blank">
+              Instagram
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.tiktok.com/@le_sserafim?lang=es"target="blank">
+              tiktok
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</nav>
+
+<!-- Cierre navbar-->
+<div class="cover d-flex justify-content-center align-items-center flex-column">
+  <h1><span>I</span>M<span>FEARLESS</span></h1>
+  <h4>
+  DO YOU THINK I AM FRAGILE?...
+  </h4>
+</div>
+</header>
+<section>
+  <div class="container mt-5 mb-5">
+    <div class="row justify-content-center">
+      <audio controls  autoplay  loop>
+  
+        <source src="https://cdn.glitch.global/91d9c3b3-81bb-42e4-b8c0-7134ae4fa605/lesserafimeve.mp3?v=1685039781923"  type="audio/mp3">
+
+</audio>
+   <!-- Tarjeta 1--> 
+    <div class="col-12 col-sm-6 col-md-4 ">
+    <div class="card"> 
+      <img src="https://cdn.glitch.global/91d9c3b3-81bb-42e4-b8c0-7134ae4fa605/LE-SSERAFIM-KPOP.jpeg?v=1685039784325" alt="">
+     
+     
+      <div class="card-text">
+      
+        <p class="card-text fs-3" style="font-family: 'Times New Roman', Times, serif;" >LE SSERAFIM es un grupo creado por "source music" conformado inicialmente por 6 integrantes
+          Kim Garam la ex integrante de este grupo, lo dejo por acusaciones de bullyng cuando era mas joven.</p>
+      </div>
+    </div> 
+    </div>
+    <!-- Fin Tarjeta 1 -->
+      <!-- Tarjeta 2--> 
+      <div class="col-12 col-sm-6 col-md-4 ">
+        <div class="card">
+          <img src="https://cdn.glitch.global/91d9c3b3-81bb-42e4-b8c0-7134ae4fa605/le-sserafim-unforgiven-main.jpg?v=1685039787551" alt="">
+          
+          <div class="card-text">
+            
+            <p class="card-text fs-3"style="font-family: 'Times New Roman', Times, serif;">
+              El nombre del grupo significa dos cosas, uno es que LE SSERAFIM se integra con la frase "i`m fearless”, el segundo es SERAPHIM se refiere a un ser celestial de 6 alas, haciendo referencia a las 6 integrantes iniciales
+            </p>
+          </div>
+        </div> 
+        </div>
+    <!-- Fin Tarjeta 2 -->
+     <!-- Tarjeta 3--> 
+   <div class="col-12 col-sm-6 col-md-4 ">
+    <div class="card">
+      <img src="https://cdn.glitch.global/91d9c3b3-81bb-42e4-b8c0-7134ae4fa605/GROUP%201_BLOODY%20ROSE.webp?v=1685041051202" alt="">
+     
+      <div class="card-text">
+        <p class="card-text fs-3" style="font-family: 'Times New Roman', Times, serif;">el fandom FEARNOT se llama asi para retomar la idea de avanzar sin miedo, pero el termino coreano para el nombre es florecer por lo que tiene un doble significado.</p>
+      </div>
+    </div> 
+    </div>
+    </div>
+  </div>
+<!-- Fin Tarjeta 3 -->
+</section>
+<nav class="navbar navbar-expand-lg bg-dark">
+  <div class="container-fluid justify-content-center"></div>
+</nav>
+
+<!-- Integrante 1-->
+<section>
+<!-- Titulo y nombre-->
+<section>
+  <div class="container card-text col-12 col-sm-6 col-md-4 justify-content-center">
+    <h1 style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;text-align: center;">INTEGRANTES
+    </h1>
+    <nav class="navbar navbar-expand-lg bg-dark">
+      <div class="container-fluid justify-content-center"></div>
+    </nav>
+        <h4>
+          KIM CHAE-WON
+        </h4>    
+    </div>
+</section>
+<!-- Imagen y sinopsis-->
+<section>
+  <div class="container mt-5 mb-5">
+    <table>
+      <tr>
+        <td>
+          <img src="https://cdn.glitch.global/91d9c3b3-81bb-42e4-b8c0-7134ae4fa605/kim-chae-won_43.png?v=1685039776957" class="img2" style="width: 450px; height: 300px;">
+        </td>
+        <td>
+          <p class="spoiler align-items-center flex-column"> Kim Chaewon (김채원; nacida el 1 de agosto de 2000), simplemente conocido como Chaewon,
+            es un cantante de Corea del Sur y miembro del grupo Kpop LE SSERAFIM bajo Source Music. 
+            Es ex integrante del grupo de Kpop IZONE. Participó en el programa de supervivencia Produce 48 y ocupó el décimo lugar.
+            Hizo su debut con IZONE el 29 de octubre de 2018 a la edad de 18 años y con LE SSERAFIM a la edad de 21.Fue trainee durante 11 meses antes de aparecer en PRODUCE 48.
+            Participó en el programa de supervivencia PRODUCE 48, quedando el el puesto #10 con 238,192 votos, logrando entrar al grupo proyecto de este programa, IZ*ONE.
+            Pocisiones: lider, vocalista y bailarina.
+          </p>
+        </td>
+      </tr>
+    </table>
+  </div>
+</section>
+</section>
+<!-- Cierre de Integrante 1-->
+
+<!-- Integrante 2-->
+<section>
+  <!-- Titulo y nombre-->
+  <section>
+    <div class="container card-text col-12 col-sm-6 col-md-4 justify-content-center">
+          <h4>
+            HUH YUN-JIN
+          </h4>    
+      </div>
+  </section>
+  <!-- Imagen y sinopsis-->
+  <section>
+    <div class="container mt-5 mb-5">
+      <table>
+        <tr>
+          <td>
+            <div align="right">
+              <p class="spoiler align-items-end flex-column">
+                Huh Yunjin (허윤진; nacido el 8 de octubre de 2001)
+                es un cantante coreano-estadounidense y miembro del grupo Kpop LE SSERAFIM bajo Source Music.
+                Participó en el programa de supervivencia Produce 48 y ocupó el puesto 26.
+                Debutó con LE SSERAFIM en el 2022 a la edad de 20 años.
+                Posición: Vocalista y Bailarina.
+                En el 2018, apareció como concursante en el programa de supervivencia Produce 48,
+                donde representó a Pledis Entertainment . Fue eliminada en el episodio 11 después de ocupar el puesto 26. 
+                El 9 de abril de 2022, fue presentada como la sexta y última integrante de LE SSERAFIM. [5] Debutaron el 2 de mayo de 2022 con el mini álbum Fearless .
+  
+               Debutó como cantante solista el 9 de agosto de 2022 con el sencillo digital " Raise your_glass " .
+              </p>
+          </td>
+          <td>
+            <img src="https://cdn.glitch.global/91d9c3b3-81bb-42e4-b8c0-7134ae4fa605/allkpop_1660089699_20220809-huhyunjin.jpg?v=1685039754436" class="img2" style="width: 450px; height: 300px;">
+          </td>
+        </tr>
+      </table>
+    </div>
+  </section>
+  </section>
+  <!-- Cierre de Integrante 2-->
+  <!-- Integrante 3-->
+<section>
+  <!-- Titulo y nombre-->
+  <section>
+    <div class="container card-text col-12 col-sm-6 col-md-4 justify-content-center">
+
+          <h4>
+            KAZUHA
+          </h4>    
+      </div>
+  </section>
+  <!-- Imagen y sinopsis-->
+  <section>
+    <div class="container mt-5 mb-5">
+
+      <table>
+        <tr>
+          <td>
+            <img src="https://cdn.glitch.global/91d9c3b3-81bb-42e4-b8c0-7134ae4fa605/korean-model-kazuha-le-sserafim-kpop-girls-group-wallpaper-3000x2000_42.jpg?v=1685039776987" class="img2" style="width: 450px; height: 300px;">
+          </td>
+          <td>
+            <p class="spoiler align-items-end flex-column">
+              Pre Debut
+              Kazuha era bailarina de ballet profesional antes de su debut y asistió a Hashimoto Sachiyo Ballet School Y Jr en Japón, donde fue medallista de plata en la Competencia del Gran Premio de Ballet de Asia (División Junior) en 2018, luego ingresó a la Bolshoi Ballet Academy en Moscú, Rusia, posteriormente a la Royal Ballet School en el Reino Unido, y desde 2020 estaba estudiando en la Academia Nacional de Ballet Holandesa en los Países Bajos, donde fue reclutada personalmente por el CEO de Source Music a mediados de diciembre de 2021.
+              
+              Comenzó a practicar ballet desde que tenía 3 años, cuando su mamá la envió a un estudio de ballet cercano a su casa.
+              
+              2022: Debut en LE SSERAFIM
+              Debutó el 2 de mayo de 2022 en el grupo femenino LE SSERAFIM, con el primer mini álbum "FEARLESS", que lleva una canción homónima como pista promocional.
+              Posición: Rapera, Vocalista y Bailarina.
+    
+            </p>
+          </td>
+        </tr>
+      </table>
+
+
+
+
+    </div>
+  </section>
+  </section>
+  <!-- Cierre de Integrante 3-->
+
+<!-- Integrante 4-->
+<section>
+  <!-- Titulo y nombre-->
+  <section>
+    <div class="container card-text col-12 col-sm-6 col-md-4 justify-content-center">
+          <h4>
+            HONG EUN CHAE
+          </h4>    
+      </div>
+  </section>
+  <!-- Imagen y sinopsis-->
+  
+  <section>
+
+    
+    <div class="container mt-5 mb-5">
+      
+        <!-- imagen aqui porque GOOD d-flex align-items-center"-->  
+        <table>
+          <tr>
+            <td>
+              <div align="right">
+                <p class="spoiler align-items-end flex-column">
+                 
+              Fue la última integrante en unirse a la alineación de LE SSERAFIM, en enero de 2022.
+              En la escuela primaria participó en gimnasia rítmica, y en la escuela secundaria estuvo en el consejo estudiantil y el club de atletismo.
+              Fue estudiante en Def Dance Skool durante casi 2 años, desde febrero de 2019, fue reclutada por Source Music en enero de 2021 durante las audiciones en esa academia.
+              Anteriormente audicionó para JYP Entertainment y PLEDIS Entertainment en febrero de 2020, pasó la primera ronda en ambas agencias.Posición: Vocalista, Bailarina y Maknae.
+              </p>
+            </td>
+            <td>
+              <img src="https://cdn.glitch.global/91d9c3b3-81bb-42e4-b8c0-7134ae4fa605/chaechae.jpg?v=1685039749933" class="img2" style="width: 450px; height: 300px;">
+            </td>
+          </tr>
+        </table>
+
+    </div>
+  </section>
+  </section>
+  <!-- Cierre de Integrante 4-->
+
+    <!-- Integrante 5-->
+<section>
+  <!-- Titulo y nombre-->
+  <section>
+    <div class="container card-text col-12 col-sm-6 col-md-4 justify-content-center">
+          <h4>
+            MIYAWAKI SAKURA
+          </h4>    
+      </div>
+  </section>
+  <!-- Imagen y sinopsis-->
+  <section>
+    <div class="container mt-5 mb-5">
+      <table>
+        <tr>
+          <td>
+            <img src="https://cdn.glitch.global/91d9c3b3-81bb-42e4-b8c0-7134ae4fa605/kurakura.jpg?v=1685039779189" class="img2" style="width: 450px; height: 300px;">
+          </td>
+          <td>
+            <p class="spoiler align-items-end flex-column" >
+              Miyawaki ingresó a la primera generación de Kenkyūsei de HKT48 en julio de 2011. Debutó el 23 de octubre del mismo año, ya como una miembro oficial de HKT48.
+    
+              En 2018, Miyawaki se unió al programa de supervivencia coreano PRODUCE 48 y fue seleccionada como el centro del tema de presentación "PICK ME".
+               Ella se ubicó segunda en la final y debutó el 29 de octubre de 2018 como miembro de IZ*ONE.
+               Miembro de Drama Club.
+               Ex-miembro del Melonpan Alliance.
+               Fue una actriz infantil.
+               El 24 de febrero de 2014 fue nombrada co- capitana del Team KIV de HKT48.
+               Fue la primer miembro de HKT48 elegida por la administración para convertirse en el centro de un single de AKB48.
+               Su ultima actividad como miembro de HKT48 fue el 27 de marzo de 2021.
+               El 14 de marzo de 2022 se confirmo que junto a Chaewon firmaron un contrato con Source Music y serán parte del LE SSERAFIM, el próximo grupo de la compañía.
+               Posición: Vocalista y Bailarina.
+            </p>
+          </td>
+        </tr>
+      </table>
+       
+  
+        
+      
+    </div>
+  </section>
+  </section>
+  <!-- Cierre de Integrante 5-->
+  <nav class="navbar navbar-expand-lg bg-dark">
+    <div class="container-fluid justify-content-center"></div>
+  </nav>
+  <div class="container mt-5 mb-5">
+    <h1 style="text-align: center" style ="width: 450px; height: 300px;">
+      ¿por que le sserafim?
+     </h1>
+    <div class="maybe d-flex align-items-center">
+      <!-- imagen aqui porque GOOD-->
+      <img src="https://cdn.glitch.global/91d9c3b3-81bb-42e4-b8c0-7134ae4fa605/artworks-lSuIGktDCQ0R2pBJ-VnmRxA-t500x500.jpg?v=1685039756400" class="img2" />
+
+      
+      <p style = "text-align: center; color: black;">
+       le sserafim es un grupo muy bueno y 
+        me gustarria que mas gente llegara a verlo
+         y reconocer el maravilloso grupo que es.
+         en resumen
+         las amo 
+         aparte medios temazos que se cargan
+      </p>
+      <img src="https://cdn.glitch.global/91d9c3b3-81bb-42e4-b8c0-7134ae4fa605/220618-le-sserafim-japan-twitter-update-v0-ta7fo9xwec691.webp?v=1685041037551" class="img2" />
+    </div>
+  </div>
+  <nav class="navbar navbar-expand-lg bg-dark">
+    <div class="container-fluid justify-content-center"></div>
+  </nav>
+  <div class="container">
+    <!-- code here -->
+    <div class="text-box">
+      <h2>Creadora</h2>
+      <h2>Creadora</h2>
+    </div>
+      <h3 style="color: black; text-align: center;font-family: fantasy;">ig: akikii_yuu<span>:)</span></h3>
+  </div>
+</body>
+</html>
+
+          
